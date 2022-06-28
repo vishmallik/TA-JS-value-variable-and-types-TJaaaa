@@ -14,8 +14,8 @@ let lastName = "Stark";
 
 alert(firstName);
 alert(lastName);
-let firstName='John';
-let lastName='Snow';
+firstName='John';
+lastName='Snow';
 alert(firstName+lastName);
 const FULLNAME = firstName +" "+lastName;
 
@@ -44,10 +44,10 @@ var wiseMan = "Tyrion Lannister";
 // Declare a variable `userName` with value "Lysa Arryn"
 // Declare a variable named `oddNumber` and assign a value `57`.
 // Reassign the value of `oddNumber` to 61
-var wiseMan = "Samwell Tarly";
+wiseMan = "Samwell Tarly";
 let userName ="Lysa Arryn";
 let oddNumber =57;
-let oddNumber=61; //Uncaught SyntaxError: Identifier 'oddNumber' has already been declared
+oddNumber=61;
 
 // Mathematical Operation
 
