@@ -14,5 +14,14 @@ const ACCESSORY_PRICE = 9.99;
 var bank_balance = 303.91;
 var amount = 0;
 // your code goes here
-
+if (bank_balance >= amount) {
+  for (
+    bank_balance;
+    bank_balance > 0;
+    bank_balance - (PHONE_PRICE + ACCESSORY_PRICE)
+  );
+  {
+    amount += PHONE_PRICE + ACCESSORY_PRICE;
+  }
+}
 // ⛑ Answer of the above will `$334.76`.
